@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'RAMDiskControl' target in the 'RAMDiskControl' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+	#import "NSNumber+Utilites.h"
+	#import "RDSettings.h"
+#endif

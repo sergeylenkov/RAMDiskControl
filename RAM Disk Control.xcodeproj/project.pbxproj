@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5270FFE1DAE1A60006DAA22 /* NSApplication+Utilites.m in Sources */ = {isa = PBXBuildFile; fileRef = A5270FFD1DAE1A60006DAA22 /* NSApplication+Utilites.m */; };
+		A5C7E754160B2FA30071AD20 /* Eject.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C7E753160B2FA30071AD20 /* Eject.png */; };
+		A5C7E75D160B381B0071AD20 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = A5C7E75C160B381B0071AD20 /* Credits.html */; };
+		A5C7E7C8160C4FD10071AD20 /* Icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = A5C7E7C7160C4FD10071AD20 /* Icons.icns */; };
+		A5DF5A9B16025CE1005F84E0 /* PrefsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5DF5A9A16025CE1005F84E0 /* PrefsWindow.xib */; };
+		A5DF5AA316025CEB005F84E0 /* RDPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DF5A9E16025CEB005F84E0 /* RDPrefsController.m */; };
+		A5DF5AA416025CEB005F84E0 /* PrefsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DF5AA016025CEB005F84E0 /* PrefsWindow.m */; };
+		A5DF5AA516025CEB005F84E0 /* PTLoginItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DF5AA216025CEB005F84E0 /* PTLoginItem.m */; };
+		A5F21D2115FDDC0E009F649C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F21D2015FDDC0E009F649C /* Cocoa.framework */; };
+		A5F21D2B15FDDC0E009F649C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5F21D2915FDDC0E009F649C /* InfoPlist.strings */; };
+		A5F21D2D15FDDC0E009F649C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21D2C15FDDC0E009F649C /* main.m */; };
+		A5F21D3415FDDC0E009F649C /* RDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21D3315FDDC0E009F649C /* RDAppDelegate.m */; };
+		A5F21D3715FDDC0E009F649C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F21D3515FDDC0E009F649C /* MainMenu.xib */; };
+		A5F21D9315FE0D40009F649C /* RDDiskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21D9215FE0D40009F649C /* RDDiskManager.m */; };
+		A5F21D9915FE0F34009F649C /* NewDiskWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F21D9815FE0F34009F649C /* NewDiskWindow.xib */; };
+		A5F21D9C15FE0F53009F649C /* RDNewDiskController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21D9B15FE0F53009F649C /* RDNewDiskController.m */; };
+		A5F21DA615FE1514009F649C /* RDDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21DA515FE1514009F649C /* RDDisk.m */; };
+		A5F21E9715FF2B2B009F649C /* PXListDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21E8A15FF2B2B009F649C /* PXListDocumentView.m */; };
+		A5F21E9815FF2B2B009F649C /* PXListView+UserInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21E8D15FF2B2B009F649C /* PXListView+UserInteraction.m */; };
+		A5F21E9915FF2B2B009F649C /* PXListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21E8F15FF2B2B009F649C /* PXListView.m */; };
+		A5F21E9A15FF2B2B009F649C /* PXListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21E9215FF2B2B009F649C /* PXListViewCell.m */; };
+		A5F21E9B15FF2B2B009F649C /* RDDiskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21E9615FF2B2B009F649C /* RDDiskCell.m */; };
+		A5F21EA215FF2F2F009F649C /* sl-icon-small_trash-eject.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A5F21E9F15FF2F2F009F649C /* sl-icon-small_trash-eject.tiff */; };
+		A5F21EA315FF2F2F009F649C /* sl-icon-small_trash-eject@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A5F21EA015FF2F2F009F649C /* sl-icon-small_trash-eject@2x.tiff */; };
+		A5F21EA615FF2F98009F649C /* RDMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21EA515FF2F97009F649C /* RDMainController.m */; };
+		A5F21EAE15FF31F8009F649C /* NSNumber+Utilites.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21EAD15FF31F8009F649C /* NSNumber+Utilites.m */; };
+		A5F21EB515FF6899009F649C /* RDSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F21EB415FF6898009F649C /* RDSettings.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5270FFC1DAE1A60006DAA22 /* NSApplication+Utilites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+Utilites.h"; sourceTree = "<group>"; };
+		A5270FFD1DAE1A60006DAA22 /* NSApplication+Utilites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+Utilites.m"; sourceTree = "<group>"; };
+		A5C7E753160B2FA30071AD20 /* Eject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eject.png; sourceTree = "<group>"; };
+		A5C7E75C160B381B0071AD20 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Credits.html; path = Resources/Credits.html; sourceTree = "<group>"; };
+		A5C7E7C7160C4FD10071AD20 /* Icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icons.icns; sourceTree = "<group>"; };
+		A5D743A016109ED900E869C6 /* RAM Disk Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "RAM Disk Control.entitlements"; path = "../RAM Disk Control.entitlements"; sourceTree = "<group>"; };
+		A5DF5A9A16025CE1005F84E0 /* PrefsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PrefsWindow.xib; path = Resources/UI/PrefsWindow.xib; sourceTree = "<group>"; };
+		A5DF5A9D16025CEB005F84E0 /* RDPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDPrefsController.h; path = Classes/RDPrefsController.h; sourceTree = "<group>"; };
+		A5DF5A9E16025CEB005F84E0 /* RDPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDPrefsController.m; path = Classes/RDPrefsController.m; sourceTree = "<group>"; };
+		A5DF5A9F16025CEB005F84E0 /* PrefsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefsWindow.h; path = Classes/PrefsWindow.h; sourceTree = "<group>"; };
+		A5DF5AA016025CEB005F84E0 /* PrefsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrefsWindow.m; path = Classes/PrefsWindow.m; sourceTree = "<group>"; };
+		A5DF5AA116025CEB005F84E0 /* PTLoginItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTLoginItem.h; path = ../PTLoginItem.h; sourceTree = "<group>"; };
+		A5DF5AA216025CEB005F84E0 /* PTLoginItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTLoginItem.m; path = ../PTLoginItem.m; sourceTree = "<group>"; };
+		A5F21D1C15FDDC0E009F649C /* RAM Disk Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAM Disk Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F21D2015FDDC0E009F649C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A5F21D2315FDDC0E009F649C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A5F21D2415FDDC0E009F649C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A5F21D2515FDDC0E009F649C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5F21D2815FDDC0E009F649C /* RAM Disk Control-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RAM Disk Control-Info.plist"; sourceTree = "<group>"; };
+		A5F21D2A15FDDC0E009F649C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5F21D2C15FDDC0E009F649C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5F21D2E15FDDC0E009F649C /* RAM Disk Control-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAM Disk Control-Prefix.pch"; sourceTree = "<group>"; };
+		A5F21D3215FDDC0E009F649C /* RDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAppDelegate.h; sourceTree = "<group>"; };
+		A5F21D3315FDDC0E009F649C /* RDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
+		A5F21D3615FDDC0E009F649C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5F21D9115FE0D40009F649C /* RDDiskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDDiskManager.h; path = Classes/RDDiskManager.h; sourceTree = "<group>"; };
+		A5F21D9215FE0D40009F649C /* RDDiskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDDiskManager.m; path = Classes/RDDiskManager.m; sourceTree = "<group>"; };
+		A5F21D9815FE0F34009F649C /* NewDiskWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewDiskWindow.xib; path = Resources/UI/NewDiskWindow.xib; sourceTree = "<group>"; };
+		A5F21D9A15FE0F53009F649C /* RDNewDiskController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDNewDiskController.h; path = Classes/RDNewDiskController.h; sourceTree = "<group>"; };
+		A5F21D9B15FE0F53009F649C /* RDNewDiskController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDNewDiskController.m; path = Classes/RDNewDiskController.m; sourceTree = "<group>"; };
+		A5F21DA415FE1513009F649C /* RDDisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDDisk.h; path = Classes/RDDisk.h; sourceTree = "<group>"; };
+		A5F21DA515FE1514009F649C /* RDDisk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDDisk.m; path = Classes/RDDisk.m; sourceTree = "<group>"; };
+		A5F21E8915FF2B2B009F649C /* PXListDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXListDocumentView.h; sourceTree = "<group>"; };
+		A5F21E8A15FF2B2B009F649C /* PXListDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXListDocumentView.m; sourceTree = "<group>"; };
+		A5F21E8B15FF2B2B009F649C /* PXListView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXListView+Private.h"; sourceTree = "<group>"; };
+		A5F21E8C15FF2B2B009F649C /* PXListView+UserInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXListView+UserInteraction.h"; sourceTree = "<group>"; };
+		A5F21E8D15FF2B2B009F649C /* PXListView+UserInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PXListView+UserInteraction.m"; sourceTree = "<group>"; };
+		A5F21E8E15FF2B2B009F649C /* PXListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXListView.h; sourceTree = "<group>"; };
+		A5F21E8F15FF2B2B009F649C /* PXListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXListView.m; sourceTree = "<group>"; };
+		A5F21E9015FF2B2B009F649C /* PXListViewCell+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXListViewCell+Private.h"; sourceTree = "<group>"; };
+		A5F21E9115FF2B2B009F649C /* PXListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXListViewCell.h; sourceTree = "<group>"; };
+		A5F21E9215FF2B2B009F649C /* PXListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXListViewCell.m; sourceTree = "<group>"; };
+		A5F21E9315FF2B2B009F649C /* PXListViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXListViewDelegate.h; sourceTree = "<group>"; };
+		A5F21E9415FF2B2B009F649C /* PXListViewDropHighlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXListViewDropHighlight.h; sourceTree = "<group>"; };
+		A5F21E9515FF2B2B009F649C /* RDDiskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDDiskCell.h; path = Classes/RDDiskCell.h; sourceTree = "<group>"; };
+		A5F21E9615FF2B2B009F649C /* RDDiskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDDiskCell.m; path = Classes/RDDiskCell.m; sourceTree = "<group>"; };
+		A5F21E9F15FF2F2F009F649C /* sl-icon-small_trash-eject.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "sl-icon-small_trash-eject.tiff"; sourceTree = "<group>"; };
+		A5F21EA015FF2F2F009F649C /* sl-icon-small_trash-eject@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "sl-icon-small_trash-eject@2x.tiff"; sourceTree = "<group>"; };
+		A5F21EA415FF2F96009F649C /* RDMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDMainController.h; path = Classes/RDMainController.h; sourceTree = "<group>"; };
+		A5F21EA515FF2F97009F649C /* RDMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDMainController.m; path = Classes/RDMainController.m; sourceTree = "<group>"; };
+		A5F21EAC15FF31F8009F649C /* NSNumber+Utilites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Utilites.h"; sourceTree = "<group>"; };
+		A5F21EAD15FF31F8009F649C /* NSNumber+Utilites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Utilites.m"; sourceTree = "<group>"; };
+		A5F21EB315FF6895009F649C /* RDSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDSettings.h; path = Classes/RDSettings.h; sourceTree = "<group>"; };
+		A5F21EB415FF6898009F649C /* RDSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDSettings.m; path = Classes/RDSettings.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F21D1915FDDC0E009F649C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F21D2115FDDC0E009F649C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F21D1115FDDC0E009F649C = {
+			isa = PBXGroup;
+			children = (
+				A5F21D2615FDDC0E009F649C /* RAMDiskControl */,
+				A5F21D1F15FDDC0E009F649C /* Frameworks */,
+				A5F21D1D15FDDC0E009F649C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F21D1D15FDDC0E009F649C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F21D1C15FDDC0E009F649C /* RAM Disk Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F21D1F15FDDC0E009F649C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5F21D2015FDDC0E009F649C /* Cocoa.framework */,
+				A5F21D2215FDDC0E009F649C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5F21D2215FDDC0E009F649C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5F21D2315FDDC0E009F649C /* AppKit.framework */,
+				A5F21D2415FDDC0E009F649C /* CoreData.framework */,
+				A5F21D2515FDDC0E009F649C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A5F21D2615FDDC0E009F649C /* RAMDiskControl */ = {
+			isa = PBXGroup;
+			children = (
+				A5F21D9515FE0D44009F649C /* Classes */,
+				A5F21D9615FE0F0A009F649C /* Resources */,
+				A5F21D3215FDDC0E009F649C /* RDAppDelegate.h */,
+				A5F21D3315FDDC0E009F649C /* RDAppDelegate.m */,
+				A5F21D3515FDDC0E009F649C /* MainMenu.xib */,
+				A5F21D2715FDDC0E009F649C /* Supporting Files */,
+			);
+			path = RAMDiskControl;
+			sourceTree = "<group>";
+		};
+		A5F21D2715FDDC0E009F649C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D743A016109ED900E869C6 /* RAM Disk Control.entitlements */,
+				A5C7E75C160B381B0071AD20 /* Credits.html */,
+				A5F21D2815FDDC0E009F649C /* RAM Disk Control-Info.plist */,
+				A5F21D2915FDDC0E009F649C /* InfoPlist.strings */,
+				A5F21D2C15FDDC0E009F649C /* main.m */,
+				A5F21D2E15FDDC0E009F649C /* RAM Disk Control-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5F21D9515FE0D44009F649C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5F21EAB15FF31F6009F649C /* Utilites */,
+				A5F21E8815FF2B2B009F649C /* PXListView */,
+				A5F21E9515FF2B2B009F649C /* RDDiskCell.h */,
+				A5F21E9615FF2B2B009F649C /* RDDiskCell.m */,
+				A5F21D9115FE0D40009F649C /* RDDiskManager.h */,
+				A5F21D9215FE0D40009F649C /* RDDiskManager.m */,
+				A5F21DA415FE1513009F649C /* RDDisk.h */,
+				A5F21DA515FE1514009F649C /* RDDisk.m */,
+				A5F21EB315FF6895009F649C /* RDSettings.h */,
+				A5F21EB415FF6898009F649C /* RDSettings.m */,
+				A5F21EA415FF2F96009F649C /* RDMainController.h */,
+				A5F21EA515FF2F97009F649C /* RDMainController.m */,
+				A5F21D9A15FE0F53009F649C /* RDNewDiskController.h */,
+				A5F21D9B15FE0F53009F649C /* RDNewDiskController.m */,
+				A5DF5A9D16025CEB005F84E0 /* RDPrefsController.h */,
+				A5DF5A9E16025CEB005F84E0 /* RDPrefsController.m */,
+				A5DF5A9F16025CEB005F84E0 /* PrefsWindow.h */,
+				A5DF5AA016025CEB005F84E0 /* PrefsWindow.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A5F21D9615FE0F0A009F649C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5F21E9D15FF2F2F009F649C /* Images */,
+				A5F21D9715FE0F13009F649C /* UI */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A5F21D9715FE0F13009F649C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A5F21D9815FE0F34009F649C /* NewDiskWindow.xib */,
+				A5DF5A9A16025CE1005F84E0 /* PrefsWindow.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A5F21E8815FF2B2B009F649C /* PXListView */ = {
+			isa = PBXGroup;
+			children = (
+				A5F21E8915FF2B2B009F649C /* PXListDocumentView.h */,
+				A5F21E8A15FF2B2B009F649C /* PXListDocumentView.m */,
+				A5F21E8B15FF2B2B009F649C /* PXListView+Private.h */,
+				A5F21E8C15FF2B2B009F649C /* PXListView+UserInteraction.h */,
+				A5F21E8D15FF2B2B009F649C /* PXListView+UserInteraction.m */,
+				A5F21E8E15FF2B2B009F649C /* PXListView.h */,
+				A5F21E8F15FF2B2B009F649C /* PXListView.m */,
+				A5F21E9015FF2B2B009F649C /* PXListViewCell+Private.h */,
+				A5F21E9115FF2B2B009F649C /* PXListViewCell.h */,
+				A5F21E9215FF2B2B009F649C /* PXListViewCell.m */,
+				A5F21E9315FF2B2B009F649C /* PXListViewDelegate.h */,
+				A5F21E9415FF2B2B009F649C /* PXListViewDropHighlight.h */,
+			);
+			name = PXListView;
+			path = Classes/PXListView;
+			sourceTree = "<group>";
+		};
+		A5F21E9D15FF2F2F009F649C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A5C7E7C7160C4FD10071AD20 /* Icons.icns */,
+				A5C7E753160B2FA30071AD20 /* Eject.png */,
+				A5F21E9F15FF2F2F009F649C /* sl-icon-small_trash-eject.tiff */,
+				A5F21EA015FF2F2F009F649C /* sl-icon-small_trash-eject@2x.tiff */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		A5F21EAB15FF31F6009F649C /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				A5270FFC1DAE1A60006DAA22 /* NSApplication+Utilites.h */,
+				A5270FFD1DAE1A60006DAA22 /* NSApplication+Utilites.m */,
+				A5DF5AA116025CEB005F84E0 /* PTLoginItem.h */,
+				A5DF5AA216025CEB005F84E0 /* PTLoginItem.m */,
+				A5F21EAC15FF31F8009F649C /* NSNumber+Utilites.h */,
+				A5F21EAD15FF31F8009F649C /* NSNumber+Utilites.m */,
+			);
+			name = Utilites;
+			path = Classes/Utilites;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F21D1B15FDDC0E009F649C /* RAM Disk Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F21D3A15FDDC0E009F649C /* Build configuration list for PBXNativeTarget "RAM Disk Control" */;
+			buildPhases = (
+				A5F21D1815FDDC0E009F649C /* Sources */,
+				A5F21D1915FDDC0E009F649C /* Frameworks */,
+				A5F21D1A15FDDC0E009F649C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAM Disk Control";
+			productName = RAMDiskControl;
+			productReference = A5F21D1C15FDDC0E009F649C /* RAM Disk Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F21D1315FDDC0E009F649C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RD;
+				LastUpgradeCheck = 0440;
+				TargetAttributes = {
+					A5F21D1B15FDDC0E009F649C = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A5F21D1615FDDC0E009F649C /* Build configuration list for PBXProject "RAM Disk Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5F21D1115FDDC0E009F649C;
+			productRefGroup = A5F21D1D15FDDC0E009F649C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F21D1B15FDDC0E009F649C /* RAM Disk Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F21D1A15FDDC0E009F649C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F21D2B15FDDC0E009F649C /* InfoPlist.strings in Resources */,
+				A5F21D3715FDDC0E009F649C /* MainMenu.xib in Resources */,
+				A5F21D9915FE0F34009F649C /* NewDiskWindow.xib in Resources */,
+				A5F21EA215FF2F2F009F649C /* sl-icon-small_trash-eject.tiff in Resources */,
+				A5F21EA315FF2F2F009F649C /* sl-icon-small_trash-eject@2x.tiff in Resources */,
+				A5DF5A9B16025CE1005F84E0 /* PrefsWindow.xib in Resources */,
+				A5C7E754160B2FA30071AD20 /* Eject.png in Resources */,
+				A5C7E75D160B381B0071AD20 /* Credits.html in Resources */,
+				A5C7E7C8160C4FD10071AD20 /* Icons.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F21D1815FDDC0E009F649C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F21D2D15FDDC0E009F649C /* main.m in Sources */,
+				A5F21D3415FDDC0E009F649C /* RDAppDelegate.m in Sources */,
+				A5F21D9315FE0D40009F649C /* RDDiskManager.m in Sources */,
+				A5270FFE1DAE1A60006DAA22 /* NSApplication+Utilites.m in Sources */,
+				A5F21D9C15FE0F53009F649C /* RDNewDiskController.m in Sources */,
+				A5F21DA615FE1514009F649C /* RDDisk.m in Sources */,
+				A5F21E9715FF2B2B009F649C /* PXListDocumentView.m in Sources */,
+				A5F21E9815FF2B2B009F649C /* PXListView+UserInteraction.m in Sources */,
+				A5F21E9915FF2B2B009F649C /* PXListView.m in Sources */,
+				A5F21E9A15FF2B2B009F649C /* PXListViewCell.m in Sources */,
+				A5F21E9B15FF2B2B009F649C /* RDDiskCell.m in Sources */,
+				A5F21EA615FF2F98009F649C /* RDMainController.m in Sources */,
+				A5F21EAE15FF31F8009F649C /* NSNumber+Utilites.m in Sources */,
+				A5F21EB515FF6899009F649C /* RDSettings.m in Sources */,
+				A5DF5AA316025CEB005F84E0 /* RDPrefsController.m in Sources */,
+				A5DF5AA416025CEB005F84E0 /* PrefsWindow.m in Sources */,
+				A5DF5AA516025CEB005F84E0 /* PTLoginItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5F21D2915FDDC0E009F649C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F21D2A15FDDC0E009F649C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5F21D3515FDDC0E009F649C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F21D3615FDDC0E009F649C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5F21D3815FDDC0E009F649C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "RAM Disk Control";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A5F21D3915FDDC0E009F649C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "RAM Disk Control";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A5F21D3B15FDDC0E009F649C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "RAM Disk Control.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer: Sergey Lenkov (Z82LX6M762)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAMDiskControl/RAM Disk Control-Prefix.pch";
+				INFOPLIST_FILE = "RAMDiskControl/RAM Disk Control-Info.plist";
+				PRODUCT_NAME = "RAM Disk Control";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5F21D3C15FDDC0E009F649C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "RAM Disk Control.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer: Sergey Lenkov (Z82LX6M762)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAMDiskControl/RAM Disk Control-Prefix.pch";
+				INFOPLIST_FILE = "RAMDiskControl/RAM Disk Control-Info.plist";
+				PRODUCT_NAME = "RAM Disk Control";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F21D1615FDDC0E009F649C /* Build configuration list for PBXProject "RAM Disk Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F21D3815FDDC0E009F649C /* Debug */,
+				A5F21D3915FDDC0E009F649C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F21D3A15FDDC0E009F649C /* Build configuration list for PBXNativeTarget "RAM Disk Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F21D3B15FDDC0E009F649C /* Debug */,
+				A5F21D3C15FDDC0E009F649C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F21D1315FDDC0E009F649C /* Project object */;
+}
